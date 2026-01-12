@@ -13,7 +13,9 @@ function handleTurnOffOrOn() {
 
   if (isOff) {
     imageContainer.src = './img/yellow_lamp.png';
-    buttonTurn.innerHTML = 'Spento';
+    buttonTurn.innerHTML = 'Spegni';
   } else {
+    imageContainer.src = './img/white_lamp.png';
+    buttonTurn.innerHTML = 'Accendi';
   }
 }
