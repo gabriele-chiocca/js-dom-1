@@ -12,11 +12,11 @@ function handleTurnOffOrOn() {
   //Se la lampada è spenta
   if (isOff) {
     imageContainer.src = './img/yellow_lamp.png';
-    buttonTurn.innerHTML = 'Spegni';
+    buttonTurn.textContent = 'Spegni';
   }
   // Se la lampada è accesa
   else {
     imageContainer.src = './img/white_lamp.png';
-    buttonTurn.innerHTML = 'Accendi';
+    buttonTurn.textContent = 'Accendi';
   }
 }
